@@ -1,9 +1,10 @@
-﻿## Jak wykonać zadania z `tasks.sql`
+## Jak wykonać zadania z `tasks.sql`
 ## Krótkie wyjaśnienie — co zrobić w `tasks.sql`
 
 Podstawowe kroki (krótko):
 
-1. Uruchom skrypt `tasks.sql`, żeby utworzyć tabelę i dane (np. w MySQL 8+: `mysql example_db < tasks.sql`).
+1. Otworz strone https://sqliteonline.com/ (bedziesz robil tam zadania)
+2. Skopiuj SQL kod, stworz tabele
 2. W pliku `tasks.sql` znajdziesz trzy komentarze z zadaniami — pod każdym z nich wstaw swoje zapytanie i je uruchom.
 
 Co trzeba zrobić w każdym zadaniu:
@@ -17,5 +18,3 @@ Co sprawdzić po wykonaniu:
 - NTILE: czy wartości kwartylu mieszczą się w zakresie 1..4 i odpowiadają porządkowi cen.
 - LAG: czy pierwsza wartość poprzedniej ceny jest NULL i czy różnice wyglądają sensownie.
 - SUM OVER: czy kolumna z sumą jest taka sama dla wszystkich produktów z tej samej kategorii.
-
-Jeśli chcesz, mogę tylko dodać krótkie hints w `tasks.sql` (bez pełnych rozwiązań) — daj znać.
